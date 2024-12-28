@@ -112,7 +112,7 @@ body{
 
 .pag-img
 {
-    width: 50%; 
+    width: 40%; 
     max-height: 500px; /* Define una altura máxima para controlar el tamaño */
     object-fit: cover; /* Asegura que la imagen mantenga proporción */
     display: block;
