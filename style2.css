@@ -7,7 +7,8 @@
     list-style: none;
 }
 body{
-    font-family: "Poppins", sans serif;
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(255, 255, 255);
 }
 
 .container 
@@ -24,7 +25,7 @@ body{
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 40vh;
+        min-height: 30vh;
         display: flex;
         align-items: center;
 }
@@ -102,4 +103,83 @@ body{
     color: #dfdbdb;
     padding: 0 150 px;
     margin-bottom: 25px;
+}
+
+.areas
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.areas p
+{
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+.areas h1
+{
+    font-size: 37px;
+    line-height: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-align: center;
+}
+
+.areas h2
+{
+    font-size: 35px;
+    line-height: 35px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-align: center;
+}
+
+.areas h3
+{
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-align: center;
+}
+
+.areas img
+{
+    width: 37%; 
+    max-height: none;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto; 
+}
+
+
+
+.autor 
+{
+    background-color: rgb(20, 17, 17); /* Cambia el fondo a negro */
+    color: white; /* Texto blanco para contraste */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Agrega un poco de espacio interno */
+    width: 100%; /* Asegúrate de que cubra todo el ancho */
+    position: relative; /* Estilo opcional si hay solapamiento */
+}
+
+html 
+{
+    scroll-behavior: smooth;
 }

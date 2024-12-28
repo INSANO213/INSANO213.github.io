@@ -7,7 +7,7 @@
     list-style: none;
 }
 body{
-    font-family: "Poppins", sans serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .container 
@@ -135,7 +135,7 @@ body{
 {
     color: #f8f5f3;
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .pag-content .navbar ul li
 {
@@ -148,7 +148,7 @@ body{
     padding: 20px;
     color: #f8f5f3;
     display: block;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .pag-content .navbar ul li a:hover
@@ -157,7 +157,7 @@ body{
 }
 
 .autor {
-    background-color: black; /* Cambia el fondo a negro */
+    background-color: rgb(20, 17, 17); /* Cambia el fondo a negro */
     color: white; /* Texto blanco para contraste */
     text-align: center; /* Centra el texto */
     padding: 20px; /* Agrega un poco de espacio interno */
