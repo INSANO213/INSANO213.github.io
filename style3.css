@@ -162,7 +162,7 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 13vh;
-    justify-content: center;
+    justify-content: space-between;;
     display: flex;
 }
 
