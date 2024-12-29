@@ -43,13 +43,6 @@ body
     margin-bottom: 20px;
 }
 
-.logo
-{
-    color: #f8f5f3;
-    font-size: 25px;
-    font-weight: 800;
-}
-
 .menu .navbar ul li
 {
     position: relative;
@@ -89,6 +82,7 @@ body
     color: #dcdddf;
     text-transform: uppercase;
     margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .header-content p

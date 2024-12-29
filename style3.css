@@ -8,7 +8,7 @@
 }
 body{
     font-family: "Poppins", sans-serif;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(235, 220, 206);
 }
 
 .container 
@@ -91,78 +91,124 @@ body{
     margin-bottom: 25px;
 }
 
-.areas
+main p 
 {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-}
-
-.areas p
-{
-    font-size: 17px;
+    font-size: 24px;
     color: #000000;
+    padding: 0 150 px;
     margin-bottom: 25px;
-    text-align: center;
+    margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-
-.areas h1
-{
-    font-size: 37px;
-    line-height: 40px;
-    color: #000000;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    text-decoration: underline;
-    text-decoration-color: #000000;
     text-align: center;
 }
 
-.areas h2
-{
-    font-size: 35px;
-    line-height: 35px;
-    color: #000000;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    text-decoration: underline;
-    text-decoration-color: #000000;
+.formulario {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.formulario button {
+    width: 100px;
+    padding: 10px;
+    background-color: #3cb6be;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.formulario button:hover {
+    background-color: #2fa5d3;
+}
+
+.netbackground {
+    background-color: #235db4;
+}
+.netfiiH1 {
+    text-align: center;
+    color: #f0f1a9;
+    padding: 20px;
+    table-layout: auto;
+}
+table {
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    width: 80%; 
     text-align: center;
 }
 
-.areas h3
+.cuerpo .navbar
 {
-    font-size: 20px;
-    line-height: 25px;
-    color: #000000;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    text-decoration: underline;
-    text-decoration-color: #000000;
-    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 13vh;
+    justify-content: center;
+    display: flex;
 }
 
-.areas img
+.cuerpo .navbar h1
 {
-    width: 37%; 
-    max-height: none;
-    object-fit: contain;
+    font-size: 24px;
+    color: #dfdbdb;
+    padding: 0 150px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.cuerpo .navbar ul li
+{
+    position: relative;
+    float: left;
+    display: left;
+}
+.cuerpo .navbar ul li a
+{
+    font-size: 18px;
+    padding: 20px;
+    color: #1b8aac;
     display: block;
-    margin: 0 auto; 
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
-
+.cuerpo .navbar ul li a:hover
+{
+    color: #2847d1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
 .autor 
 {
     background-color: rgb(20, 17, 17);
-    color: white;
+    color: white; 
     text-align: center; 
     padding: 20px; 
     width: 100%; 
-    position: relative;
+    position: relative; 
 }
 
 html 
