@@ -27,6 +27,7 @@ body{
         min-height: 50vh;
         display: flex;
         align-items: center;
+
 }
 
 .menu
@@ -38,6 +39,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .logo
@@ -59,6 +61,7 @@ body{
     color: #f8f5f3;
     display: block;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .menu .navbar ul li a:hover
@@ -71,16 +74,7 @@ body{
     display: none;
 }
 
-.menu-icono
-{
-    width: 25 px;
-}
 
-.menu label
-{
-    cursor: pointer;
-    display: none;
-}
 
 .header-content
 {
